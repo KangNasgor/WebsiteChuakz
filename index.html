@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="style.css">
+    <title>Chuakz Squad</title>
+</head>
+<body>
+    <div class="Sekotak-Judul">
+        <h2 class="Judul-Inti">Kegiatan </h2>
+        <h1 class="Judul-Inti2">Chuakz Kuat</h1>
+            </div>
+    <div class="Sekotak-Marquee">
+        <marquee class="Marquee1" direction="left">Chuakz Cerdas -- Chuakz Rajin -- Chuakz Baik</marquee>
+    </div>
+    <button type="button" id="tombolPiketDanSiswa" onclick="munculkanJadwal()">Lihat Jadwal</button>
+   <div id="containerJadwal" style = "visibility: hidden;"><h1 class="judulJadwal">JADWAL KELAS</h1> <img src="Images/WhatsApp Image 2023-07-16 at 12.28.50.jpeg" id="JadwalKelas" > </div>  
+   
+   <div id="daftarSiswa"> 
+    <h1 class="judulSiswa" style="font-family: monospace;">DAFTAR SISWA</h1>
+    <div class="siswa1">
+        <ul id="tableSiswa">
+        <li>1.Adinda Ayudiya Lestari</li>
+        <li>2.Afriansyah Yogatama</li>
+        <li>3.Amirrudin Aziz</li>
+        <li>4.Andhika Hisyam M.R</li>
+        <li>5.Anindya Wulandari</li>
+        <li>6.Ata Al Almer</li>
+        <li>7.Ayudhya Naja Adinda</li>
+      </ul>
+    </div>
+    <div class="siswa2">
+        <ul id="tableSiswa">
+          <li>8.Daniswara Zavier P.A</li>
+          <li>9.Dirada Alif Saindeva</li>
+          <li>10.Ghania Aqeela Ara K</li>
+          <li>11.Helga Olivia</li>
+          <li>12.Jhesaya Giovani A</li>
+          <li style="font-weight: bold;">13.Leonard Alfareno</li>
+          <li>14.Luky Pasya Yoshinta</li>
+        </ul>
+      </div>
+      <div class="siswa3">
+        <ul id="tableSiswa">
+            <li>15.Maulid Marizka A.A</li>
+            <li>16.Muhammad Yahya A</li>
+            <li>17.Nabil Yamashita</li>
+            <li>18.Nadhifa Salma A</li>
+            <li>19.Najib Ghani Widodo</li>
+            <li>20.Najwa Vania Putri</li>
+            <li>21.Nayla Rizka Mufida</li>
+        </ul>
+    </div>
+    <div class="siswa4">
+        <ul id="tableSiswa">
+            <li>22.Raditya Febriandaru M.A</li>
+            <li>23.Rafa Akmal Widjaya</li>
+            <li>24.Rayhan Adesta A</li>
+            <li>25.Ridho Hafid Pratama</li>
+            <li>26.Rizal Ahmad F.T</li>
+            <li>27.Sabrina Aisyah</li>
+            <li>28.Satura Izhato R</li>
+        </ul>
+    </div>
+    <div class="siswa5">
+        <ul id="tableSiswa">
+            <li>29.Seanirma Aida C</li>
+            <li>30.Umar Hafidz</li>
+            <li>31.Vania Kumala A</li>
+            <li>32.Wahyu AJi S.N</li>
+            <li>33.Wildan Al Azhar</li>
+            <li>34.Yuhair Irsyad</li>
+            <li>35.Zachdan Zarga D</li>
+        </ul>
+       </div>   
+</div>
+
+    <div id="divJadwalPiket">
+        <h1>JADWAL PIKET</h1>
+        <ul class="piketSenin">
+            <dt>Senin</dt>
+            <li>Yahya</li>
+            <li>Ara</li>
+            <li>Aziz</li>
+            <li>Daniswara</li>
+            <li>Dinda</li>
+            <li>Dirada</li>
+            <li style="font-weight: bold;">Leonard</li>
+        </ul>
+        <ul>
+            <dt>Selasa</dt>
+            <li>Wildan</li>
+            <li>Aji</li>
+            <li>Radit</li>
+            <li>Rayhan</li>
+            <li>Naja</li>
+            <li>Vania</li>
+            <li>Rizka</li>
+        </ul>
+        <ul class="piketRabu">
+            <dt>Rabu</dt>
+            <li>Satura</li>
+            <li>Umar</li>
+            <li>Sean</li>
+            <li>Nabil</li>
+            <li>Nayla</li>
+            <li>Nadhifa</li>
+            <li>Sabrina</li>
+        </ul>
+        <ul class="piketKamis">
+            <dt>Kamis</dt>
+            <li>Ata</li>
+            <li>Najib</li>
+            <li>Najwa</li>
+            <li>Yoga</li>
+            <li>Rizal</li>
+            <li>Rafa</li>
+            <li>Andhika</li>
+        </ul>
+        <ul>
+            <dt>Jum'at</dt>
+            <li>Zachdan</li>
+            <li>Jhesaya</li>
+            <li>Pasya</li>
+            <li>Helga</li>
+            <li>Anin</li>
+            <li>Irsyad</li>
+            <li>Ridho</li>
+        </ul>
+        
+</div>
+    <div id="videoChuakz">
+    <h1 class="judulVideo">Video Chuakz</h1>
+    <video width="480" height="280" controls>
+        <source src="Videos/Cuakz.mp4" type="video/mp4">
+    </video>
+    <video width="480" height="280" controls>
+        <source src="Videos/WhatsApp Video 2023-07-22 at 19.50.43.mp4" type="video/mp4">
+    </video>
+    </div>
+    <div id="fotoChuakz">
+        <h1 id="judulFoto">Foto Chuakz</h1>
+    <img src="Images/WhatsApp Image 2023-07-22 at 19.50.36 (1).jpeg" width="480" height="280">
+    <img src="Images/WhatsApp Image 2023-07-22 at 19.50.35.jpeg" width="480" height="280">
+</div>
+</div>
+
+</div>
+    <script>
+    let jadwalKelas = document.getElementById("containerJadwal");
+    let daftarSiswa = document.getElementById("daftarSiswa");
+    let daftarVideo = document.getElementById("videoChuakz");
+    let daftarFoto = document.getElementById("fotoChuakz");
+    let daftarPiket = document.getElementById("divJadwalPiket");
+    const theButton = document.getElementById("tombolPiketDanSiswa");
+    let jadwalHidden = true;
+    function munculkanJadwal(){
+        let currentWidth = window.innerWidth;
+        if(jadwalHidden == true){
+            jadwalKelas.style.visibility = "visible";
+            jadwalKelas.style.transform = "scale(1)";
+            jadwalHidden = false;
+            daftarSiswa.style.transform = "translateY(450px)";
+            daftarVideo.style.transform = "translateY(450px)";
+            daftarFoto.style.transform = "translateY(450px)";
+            daftarPiket.style.transform = "translateY(450px)";
+            theButton.innerHTML = "Sembunyikan";
+        }
+        else{
+            jadwalKelas.style.visibility = "hidden";
+            jadwalKelas.style.transform = "scale(0.1)";
+            jadwalHidden = true;
+            daftarSiswa.style.transform = "translateY(-2px)";
+            daftarVideo.style.transform = "translateY(-2px)";
+            daftarFoto.style.transform = "translateY(-2px)";
+            daftarPiket.style.transform = "translateY(-2px)";
+            theButton.innerHTML = "Lihat Jadwal";
+        }
+       
+    }
+
+    </script>
+</body>
+
+
+</html>
+<!--
+      <tr>
+                <td>
+
+                </td>
+                <td>
+                     <h1 class="judulSiswa" style="font-family: monospace;">DAFTAR SISWA</h1>
+
+                      <div class="siswa1">
+    <ul id="tableSiswa">
+    <li>1.Adinda Ayudiya Lestari</li>
+    <li>2.Afriansyah Yogatama</li>
+    <li>3.Amirrudin Aziz</li>
+    <li>4.Andhika Hisyam M.R</li>
+    <li>5.Anindya Wulandari</li>
+    <li>6.Ata Al Almer</li>
+    <li>7.Ayudhya Naja Adinda</li>
+  </ul>
+</div>
+<div class="siswa2">
+  <ul id="tableSiswa">
+    <li>8.Daniswara Zavier P.A</li>
+    <li>9.Dirada Alif Saindeva</li>
+    <li>10.Ghania Aqeela Ara K</li>
+    <li>11.Helga Olivia</li>
+    <li>12.Jhesaya Giovani A</li>
+    <li style="font-weight: bold;">13.Leonard Alfareno</li>
+    <li>14.Luky Pasya Yoshinta</li>
+  </ul>
+</div>
+
+<div class="siswa3">
+    <ul id="tableSiswa">
+        <li>15.Maulid Marizka A.A</li>
+        <li>16.Muhammad Yahya A</li>
+        <li>17.Nabil Yamashita</li>
+        <li>18.Nadhifa Salma A</li>
+        <li>19.Najib Ghani Widodo</li>
+        <li>20.Najwa Vania Putri</li>
+        <li>21.Nayla Rizka Mufida</li>
+    </ul>
+</div>
+<div class="siswa4">
+    <ul id="tableSiswa">
+        <li>22.Raditya Febriandaru M.A</li>
+        <li>23.Rafa Akmal Widjaya</li>
+        <li>24.Rayhan Adesta A</li>
+        <li>25.Ridho Hafid Pratama</li>
+        <li>26.Rizal Ahmad F.T</li>
+        <li>27,Sabrina Aisyah</li>
+        <li>28.Satura Izhato R</li>
+    </ul>
+</div>
+<div class="siswa5">
+    <ul id="tableSiswa">
+        <li>29.Seanirma Aida C</li>
+        <li>30.Umar Hafidz</li>
+        <li>31.Vania Kumala A</li>
+        <li>32.Wahyu AJi S.N</li>
+        <li>33.Wildan Al Azhar</li>
+        <li>34.Yuhair Irsyad</li>
+        <li>35.Zachdan Zarga D</li>
+    </ul>
+   </div>
+                </td>
+            </tr>
+-->

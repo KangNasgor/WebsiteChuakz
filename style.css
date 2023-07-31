@@ -1,0 +1,625 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image:url(Images/zaini-izzuddin-55btQzyDiO8-unsplash.jpg);
+    background-size: cover;
+}
+.Sekotak-Judul{
+    margin-top: 3%;
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.Judul-Inti:hover{
+    text-shadow: 2px 2px 3px black;
+}
+.Judul-Inti2:hover{
+    text-shadow: 2px 2px 3px black;
+}
+.Judul-Inti{
+    font-family: montserrat;
+    transition: 0.5s ease;
+    z-index: 1;
+}
+.Judul-Inti2{
+    font-family: montserrat;
+    transition: 0.5s ease;
+    z-index: 1;
+}
+.Sekotak-Marquee{
+    background-color: #f1c40f; 
+    animation: glow 1s infinite; 
+    white-space: nowrap;
+  }
+  @keyframes glow {
+    0%, 100% {
+      box-shadow: 0 0 20px #f1c40f;
+      background-color: #f1c40f;
+    }
+    75% {
+        box-shadow: 0 0 40px #d90f0f; 
+        background-color: #d90f0f;
+    }
+    50% {
+      box-shadow: 0 0 40px #120fd9; 
+      background-color: #120fd9;
+    }
+    25% {
+        box-shadow: 0 0 40px #74d90f; 
+        background-color: #74d90f;
+    }
+  }
+  .Marquee1{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #daftarSiswa{
+    display: flex;
+    background-color: greenyellow;
+    margin-top: -400px;
+    margin-right: 10%;
+    margin-left: 10%; 
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    box-shadow: 3px 5px  black;
+    transition: transform 0.5s ease ;
+  }
+  .judulSiswa{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+    .siswa1{
+    margin-left: 55px; 
+  }  
+  .siswa5 ul{
+    padding-right: 10px;
+  }
+   #tableSiswa{
+
+    background-color: white;
+    border: black solid 2px;
+    font-size : 13px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    list-style-type: none;
+  } 
+  #tombolPiketDanSiswa{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+    width: 100px;
+    height: 50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    color: black;
+    background-color: #e8cc15;
+    box-shadow: 3px 3px black;
+    text-decoration: none;
+    border :none;
+    transition: 0.5s ease;
+  }
+  #tombolPiketDanSiswa:hover{
+    background-color: #ebda71;
+    box-shadow: 5px 5px black;
+  }
+  #JadwalKelas{
+    width: 50%;
+    height: 50%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+  }
+  #containerJadwal{
+    background-color: #74d90f;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 3px 5px  black;
+    transform : scale(0);
+    transition :visibility 0.3s, transform 0.5s ease;
+  }
+  .judulJadwal{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+
+  #videoChuakz{
+    background-color: greenyellow;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    box-shadow: 3px 5px  black;
+    transition: transform 0.5s ease ;
+    padding-left: 8px;
+  }
+  .judulVideo{
+    position: relative;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    font-family: arial;
+    margin-top: 2%;
+  }
+  #fotoChuakz{
+    margin-top: -35px;
+    background-color: greenyellow;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    box-shadow: 3px 5px  black;
+    transition: transform 0.5s ease ;
+    padding-left: 8px;
+  }
+  #judulFoto{
+    position: relative;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    font-family: arial;
+    margin-top: 2%;
+  }
+  #divJadwalPiket{
+    background-color: greenyellow;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 3%;
+    padding-top : 3%;
+    font-family: monospace;
+    box-shadow: 3px 5px  black;
+    transition: transform 0.5s ease ; 
+  }
+  #divJadwalPiket ul{
+    display: inline-block;
+    /* margin-right: 20px; */
+  }
+  #divJadwalPiket h1{
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 20px;
+  }
+  .piketSenin{
+    margin-left: 130px;
+  }
+
+
+  @media screen and (max-width : 1076px){
+    #videoChuakz video{
+      height: 180px;
+      width: 380px;
+      margin-left: 2%;
+    }
+    #containerJadwal{
+      margin-top: 3%;
+      margin-bottom: 0;
+    }
+    #daftarSiswa{
+      margin-bottom: 3%;
+    }
+    #fotoChuakz img{
+      height: 180px;
+      width: 380px;
+      margin-left: 2%;
+    }
+    #tableSiswa{
+      font-size: 9px;
+    }
+    .siswa1{
+      margin-left : 10px;
+    }
+  }
+  @media screen and (max-width : 1056px){
+    #daftarSiswa{
+      margin-top: -370px;
+    }
+  }
+  @media screen and (max-width : 1026px) {
+    #fotoChuakz img{
+      height: 230px;
+      width: 370px;
+      margin-left: 10px;
+    }
+  }
+  @media screen and (max-width : 1005px) {
+    #videoChuakz video{
+      height: 200px;
+      width: 350px;
+      margin-left: 20px;
+    }
+  }
+  @media screen and (max-width : 970px) {
+    #daftarSiswa{
+      margin-top: -350px;
+    }
+    #fotoChuakz img{
+      height: 200px;
+      width: 340px;
+      margin-left: 24px;
+    }
+    #tableSiswa{
+      font-size: 10px;
+    }
+    .siswa1{
+      margin-left: 25px;
+    }
+ 
+    
+  }
+  @media screen and (max-width :958px){
+    #divJadwalPiket{
+      font-size: 10px;
+    }
+ 
+  }
+  @media screen and (max-width : 941px){
+    #videoChuakz video{
+      width: 340px;
+      height : 200px;
+      margin-right: 1px;
+    }
+  }
+  @media screen and (max-width : 911px){
+    #daftarSiswa{
+      margin-top: -340px;
+    }
+  }
+  @media screen and (max-width : 925px){
+    #fotoChuakz img{
+      height: 190px;
+      width: 330px;
+      margin-left: 15px;
+    }
+  }
+  @media screen and (max-width: 918px){
+    #videoChuakz video{
+      width: 320px;
+      height : 190px;
+      margin-left: 25px;
+    }
+    #fotoChuakz img{
+      align-items: center;
+    }
+    #tableSiswa{
+      font-size : 9px;
+    }
+    .siswa1{
+      margin-left : 35px;
+    }
+  }
+  @media screen and (max-width : 980px) {
+    #daftarSiswa{
+      margin-top: -320px;
+    }
+    #videoChuakz video{
+      width:  300px;
+      height : 190px;
+      margin-left: 27px;
+    }
+  }
+  @media screen and (max-width : 878px){
+    #fotoChuakz img{
+      height: 150px;
+      width: 300px;
+      margin-left: 29px;
+    }
+    #tableSiswa{
+      font-size: 8px;
+    }
+    .siswa1{
+      margin-left: 40px;
+    }
+  }
+  @media screen and (max-width : 838px) {
+    #fotoChuakz img{
+      height: 130px;
+      width: 280px;
+      margin-left: 29px;
+    }
+    #videoChuakz video{
+      width:  290px;
+      height : 180px;
+      margin-left: 27px;
+    }
+  }
+  @media screen and (max-width : 829px) {
+    #divJadwalPiket{
+      font-size: 9px;
+    }
+    
+  }
+  @media screen and (max-width : 815px) {
+    #daftarSiswa{
+      margin-top : -300px;
+    }
+    #tableSiswa{
+        font-size: 7px;
+      }
+  }
+
+  /* TABLET*/
+  @media screen and (max-width : 800px) {
+    .Sekotak-Marquee{
+      background-color: #05386b; 
+      animation: glow 1s infinite; 
+      white-space: nowrap;
+    }
+    @keyframes glow {
+      0%, 100% {
+        box-shadow: 0 0 20px #05386b;
+        background-color: #05386b;
+      }
+      75% {
+          box-shadow: 0 0 40px #379683; 
+          background-color: #379683;
+      }
+      50% {
+        box-shadow: 0 0 40px #5cdb95; 
+        background-color: #5cdb95;
+      }
+      25% {
+          box-shadow: 0 0 40px #8ee4af; 
+          background-color: #8ee4af;
+      }
+    }
+    #tombolPiketDanSiswa{
+      background-color: #41b3a3;
+    }
+    #daftarSiswa{
+      background-color: #e27d60;
+    }
+    #divJadwalPiket{
+      background-color: #85dcb8;
+    }
+    #containerJadwal{
+      background-color: #c389de;
+    }
+    #videoChuakz, #fotoChuakz{
+      margin-left: 30%;
+      margin-right : 30%;
+      margin-top: 30px;
+    }
+    #videoChuakz{
+      background-color: #e8a87c;
+    }
+    #fotoChuakz{
+      background-color: #c389de;
+    }
+    #videoChuakz video{
+      margin-left: 50%;
+      transform: translate(-50%);
+    }
+    #fotoChuakz img {
+      margin-left: 50%;
+      transform: translate(-50%);
+    }
+    #daftarSiswa{
+      margin-top: -290px;
+    }
+    .siswa1{
+      margin-left: 145px;
+    }
+    .siswa4, .siswa5{
+      margin-top: 100px;
+    }
+    .siswa4{
+      margin-left: -290px;
+    }
+    .siswa5 #tableSiswa{
+      padding-right: 20px;
+    }
+    .piketSenin{
+      margin-left: 160px;
+    }
+    .piketRabu{
+      margin-right: 180px;
+    }
+    .piketKamis{
+      margin-top: 10px;
+      margin-left: 210px;
+    }
+
+  }
+  @media screen and (max-width :758px) {
+    #videoChuakz video{
+      width:  270px;
+      height : 160px;
+    }
+    #fotoChuakz img{
+      height: 110px;
+      width: 260px;
+    }
+  }
+  @media screen and (max-width :738px){
+    #daftarSiswa{
+      margin-top: -275px;
+    }
+    #divJadwalPiket ul li{
+      font-size: 7px;
+    }
+    .siswa1{
+      margin-left: 120px;
+    }
+  }
+  @media screen and (max-width : 702px) {
+    .piketRabu{
+      margin-right: 140px;
+    }
+    .piketKamis{
+      margin-left: 190px;
+    }
+  }
+  @media screen and (max-width : 696px){
+    #videoChuakz video{
+      width:  245px;
+      height : 135px;
+    }
+  }
+  @media screen and (max-width : 686px) {
+    #daftarSiswa{
+      margin-top: -250px;
+    }
+    .piketSenin{
+      margin-left: 130px;
+    }
+    #divJadwalPiket ul{
+      margin-right: 10px;
+    }
+    .piketRabu{
+      margin-right:90px;
+    }
+    .piketKamis{
+      margin-left: 175px;
+    }
+  }
+  @media screen and (max-width :627px) {
+    .siswa1{
+      margin-left: 80px;
+    }
+    .piketSenin{
+      margin-left: 110px;
+    }
+    #divJadwalPiket ul{
+      margin-right: 5px;
+    }
+    .piketKamis{
+      margin-left: 155px; 
+    }
+  }
+  @media screen and (max-width : 674px) {
+    #fotoChuakz img{
+      height: 90px;
+      width: 240px;
+    }
+    #videoChuakz video{
+      width:  225px;
+      height : 115px;
+    }
+  }
+  @media screen and (max-width : 614px) {
+    #fotoChuakz img{
+      height: 90px;
+      width: 200px;
+    }
+  }
+  @media screen and (max-width : 609px) {
+    #tombolPiketDanSiswa{
+      background-color: #3feee6;
+    }
+    #daftarSiswa{
+      margin-top: -230px;
+      display: block;
+      padding-top: 45px;
+      margin-left: 35%;
+      margin-right: 35%;
+      background-color: #fc4445;
+    }
+    .judulSiswa{
+      margin-top: -40px;
+      font-size: 20px;
+    }
+    #daftarSiswa ul{
+      width: 75px;
+      margin: 0px;
+      margin-left: 40px;
+    }
+    .siswa1{
+      margin-left: 0px;
+    }
+    .siswa4{
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    .siswa5{
+      margin-top: 0px;
+    }
+    .siswa5 #tableSiswa{
+      padding-right: 10px;
+    }
+    .piketSenin{
+      margin-left: 0;
+      margin-top: 0;
+    }
+    .piketKamis{
+      margin-left: 0;
+      margin-top: 0;
+    }
+    #divJadwalPiket{
+      display: flex;
+      flex-direction: column;
+      margin-left: 35%;
+      margin-right: 35%;
+      background-color: #CAFAFE;
+    }
+    #divJadwalPiket ul{
+      margin-top: 5px;
+      margin-left: 41px;
+      background-color: #9bc1c4;
+      width: 70px;
+    }
+    #videoChuakz{
+      background-color: #8ee4af;
+    }
+    #fotoChuakz{
+      background-color: #379683;
+    }
+
+  }
+
+  @media screen and (max-width :554px) {
+    .siswa1{
+      margin-left: 45px;
+    }
+    #videoChuakz video{
+      width : 190px;
+      height: 100px;
+    }
+    #daftarSiswa{
+      margin-top: -210px;
+    }
+    #divJadwalPiket ul{
+      margin-left: 36px;
+    }
+    .siswa1{
+      margin-left: 0px;
+    }
+  }
+  @media screen and (max-width : 490px){
+    #daftarSiswa{
+      margin-top: -200px;
+    }
+    #daftarSiswa ul{
+      margin-left: 25px;
+    }
+    #divJadwalPiket ul{
+      margin-left: 23px;
+    }
+  }
+  @media screen and (max-width : 460px) {
+    #daftarSiswa{
+      margin-top: -180px;
+    }
+    #divJadwalPiket ul{
+      margin-left: 15px;
+    }
+    #videoChuakz video{
+      height: 120px;
+      width: 150px;
+    }
+    #fotoChuakz img{
+      height: 110px;
+      width: 150px;
+    }
+  }
