@@ -839,13 +839,84 @@ body{
       font-size: 15px;
     }
     #videoChuakz video{
-      margin-left: 62px;
+      margin-left: 60px;
       height: 100px;
       width: 120px;
     }
     #fotoChuakz img{
-      margin-left: 62px;
+      margin-left: 60px;
       height: 70px;
       width: 120px
+    }
+  }
+  @media screen and (max-width : 321px) {
+    .Sekotak-Judul{
+      left: 21px;
+    }
+    #tombolPiketDanSiswa{
+      margin-left: 175px;
+    }
+    #daftarSiswa{
+      margin-top: -135px;
+    }
+    #daftarSiswa h1{
+      margin-left: 10%;
+    }
+    #daftarSiswa ul{
+      margin-left: 16px;
+    }
+    #divJadwalPiket h1{
+      font-size: 15px;
+    }
+    #divJadwalPiket ul{
+      margin-left: 16px;
+    }
+    #videoChuakz h1{
+      margin-right: 5px;
+      font-size: 15px;
+    }
+    #videoChuakz video{
+      margin-left: 57px;
+      height: 100px;
+      width: 120px;
+    }
+    #fotoChuakz img{
+      margin-left: 57px;
+      height: 70px;
+      width: 120px
+    }
+  }
+  @media screen and (max-width : 301px) {
+    #tombolPiketDanSiswa{
+      margin-left: 165px;
+    }
+    #daftarSiswa{
+      margin-top: -135px;
+    }
+    #daftarSiswa h1{
+      margin-left: 8%;
+    }
+    #daftarSiswa ul{
+      margin-left: 13px;
+    }
+    #divJadwalPiket h1{
+      font-size: 15px;
+    }
+    #divJadwalPiket ul{
+      margin-left: 13px;
+    }
+    #videoChuakz h1{
+      margin-right: 5px;
+      font-size: 15px;
+    }
+    #videoChuakz video{
+      margin-left: 53px;
+      height: 100px;
+      width: 100px;
+    }
+    #fotoChuakz img{
+      margin-left: 53px;
+      height: 60px;
+      width: 100px
     }
   }
